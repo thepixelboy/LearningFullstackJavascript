@@ -1,0 +1,40 @@
+{
+  "name": "learningfullstackjavascript",
+  "version": "1.0.0",
+  "description": "The purpose of this repository is to maitain up-to date the exercises I'm doing while follow the course [Learning Full-Stack JavaScript Development: MongoDB, Node, and React on LinkedIn Learning](https://www.linkedin.com/learning/learning-full-stack-javascript-development-mongodb-node-and-react/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thepixelboy/LearningFullstackJavascript.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/thepixelboy/LearningFullstackJavascript/issues"
+  },
+  "homepage": "https://github.com/thepixelboy/LearningFullstackJavascript#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.3.4",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.16.0",
+    "nodemon": "^2.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
