@@ -6,7 +6,7 @@ import ContestPreview from './ContestPreview';
 class App extends React.Component {
     state = {
         pageHeader: 'Naming Contests',
-        contests: []
+        contests: this.props.initialContests
     };
     componentDidMount() {
         axios.get('/api/contests')
@@ -21,6 +21,7 @@ class App extends React.Component {
         // clean timers, listeners
     }
     render() {
+        debugger;
         return (
             <div className="App">
                 <Header message={this.state.pageHeader} />
