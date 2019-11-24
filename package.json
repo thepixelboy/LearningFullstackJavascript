@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/thepixelboy/LearningFullstackJavascript#readme",
   "dependencies": {
+    "axios": "^0.19.0",
     "ejs": "^2.7.4",
     "express": "^4.17.1",
     "json-loader": "^0.5.7",
