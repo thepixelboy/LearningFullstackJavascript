@@ -9,6 +9,7 @@ export const logStars = function(message) {
 };
 
 export default {
+    'mongodb+srv://yourUser:yourPassword@actinium-dvo5d.mongodb.net/test?retryWrites=true&w=majority',    
     port: env.PORT || 8080,
     host: env.HOST || '0.0.0.0',
     get serverUrl() {
