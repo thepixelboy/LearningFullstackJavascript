@@ -42,6 +42,6 @@
     "eslint-plugin-react": "^7.16.0",
     "nodemon": "^2.0.0",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.12"
   }
 }
